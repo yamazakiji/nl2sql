@@ -10,7 +10,6 @@ services:
       NL2SQL_REDIS_URL: redis://redis:6379/0
       NL2SQL_DATABASE_URL: sqlite+aiosqlite:///./data/metadata.db
       NL2SQL_OBJECT_STORE_PATH: /app/data/artifacts
-      NL2SQL_CORS_ORIGINS: http://localhost:5173
     ports:
       - "8000:8000"
     depends_on:
