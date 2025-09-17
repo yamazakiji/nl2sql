@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     database_url: str = "sqlite+aiosqlite:///./data/metadata.db"
     redis_url: str = "redis://127.0.0.1:6379"
     object_store_path: Path = Path("./data/artifacts")
-    cors_origins: list[str] = ["http://localhost:5173"]
+    cors_origins: list[str] = ["http://localhost:5173",]
     dev_token: str = "dev-token"
     sse_log_retention: int = 500
     default_query_limit: int = 1000
