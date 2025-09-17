@@ -19,7 +19,7 @@ test:
 	$(UV) run pytest
 
 dev-up:
-	docker-compose up --build
+	docker compose up --build
 
 dev-down:
 	docker compose down
